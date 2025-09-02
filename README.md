@@ -1,8 +1,12 @@
-# Agencyias293.github.io
-├── index.html
-├── css/
-│   └── App.css
-├── js/
-│   └── script.js
-└── images/
-    └── logo.png
+
+agencia-backend/
+├── src/
+│   ├── routes/
+│   │   ├── auth.py          # Autenticación GitHub
+│   │   └── user.py          # Gestión de usuarios
+│   ├── models/
+│   │   └── user.py          # Modelos de base de datos
+│   ├── static/              # Frontend construido
+│   └── main.py              # Aplicación principal Flask
+├── requirements.txt         # Dependencias Python
+└── README.md
